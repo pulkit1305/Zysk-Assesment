@@ -1,0 +1,58 @@
+/* CTASection.css */
+
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9fafb;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.75rem;
+    color: #1f2937;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .cta-section p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .learn-more-btn,
+  .get-started-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .learn-more-btn {
+    background-color: #ffffff;
+    color: #1f2937;
+    border: 1px solid #d1d5db;
+  }
+  
+  .get-started-btn {
+    background-color: #6b47dc;
+    color: #ffffff;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #5b3dbb;
+  }
+  

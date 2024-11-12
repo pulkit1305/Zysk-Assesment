@@ -1,0 +1,83 @@
+.footer {
+    padding: 40px 0;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  width: 100%; /* Ensures content takes full width */
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.column h3 {
+  color: #667085;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  color: #475467;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.column ul li:hover {
+  text-decoration: underline;
+}
+
+.new-badge {
+  background-color: #ecfdf3;
+  color: #067647;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 12px;
+  margin-left: 5px;
+  border: 2px solid #abefc6;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changes from flex-start to space-between */
+    margin-top: 20px;
+    padding-left: 0; /* Ensure no extra padding on the left */
+  }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0; /* Ensure no left margin */
+  padding-left: 0; /* Ensure no left padding */
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
+.footer-bottom p {
+  color: #777;
+  font-size: 0.85rem;
+  margin-left: auto;
+  ;
+ 
+}

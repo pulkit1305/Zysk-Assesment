@@ -1,0 +1,92 @@
+/* FAQSection.css */
+
+.faq-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.faq-title {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.faq-subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.faq-list {
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.faq-icon {
+    font-size: 1.5em;
+    color: #98a2b3;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: left;
+}
+
+.contact-section {
+    background-color: #f9f9f9;
+    
+    padding: 50px; /* Increased padding for more internal space */
+    border-radius: 10px;
+    text-align: center;
+    
+    width: 100%; /* Increase width to 90% of the screen width */
+    max-width: 2000px; /* Set a higher max-width for larger screens */
+    margin: 0 auto; /* Center the section */
+}
+
+.contact-avatars {
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.contact-title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.contact-text {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.contact-button {
+    background-color: #7d5bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #6a4de0;
+}

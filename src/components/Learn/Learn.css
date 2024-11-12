@@ -1,0 +1,155 @@
+.learn-section {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+   
+  }
+  
+  .learn-features-title {
+    color: #7d5bff;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .learn-main-title {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .learn-subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .learn-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Allow images to wrap */
+  }
+  
+  .learn-mobile-image {
+    position: absolute;
+    bottom: -10px; /* Adjust this value to control how much lower the mobile image should be */
+    left: 7px; /* Adjust this value to control how much left the mobile image should be */
+    z-index: 2;
+    width: 200px;
+  }
+  
+  .learn-desktop-image {
+    width: 700px;
+  }
+  
+  .learn-features-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping to force all cards on the same line */
+    justify-content: space-evenly; /* Distribute space evenly between cards */
+  }
+  
+  .feature-card {
+    margin-top: 30px;
+    text-align: center;
+    background-color: transparent; /* No background color */
+    border: none; /* No border */
+    box-shadow: none; /* No box-shadow */
+    padding: 0; /* No padding */
+    width: 300px; /* Ensure all feature cards have the same width */
+  }
+  
+  .feature-icon {
+    margin-bottom: 10px;
+  }
+  
+  .feature-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+  .feature-description {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-link {
+    color: #7d5bff;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .learn-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Flexbox adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .learn-main-title {
+      font-size: 1.5em; /* Smaller font size on mobile */
+    }
+  
+    .learn-subtitle {
+      font-size: 0.9em; /* Smaller subtitle text */
+    }
+  
+    .learn-desktop-image {
+      width: 90%; /* Make desktop image responsive */
+    }
+  
+    .learn-mobile-image {
+      width: 150px; /* Adjust mobile image size */
+    }
+  
+    .learn-features-grid {
+      flex-direction: column; /* Stack feature cards vertically on small screens */
+      align-items: center;
+    }
+  
+    .feature-card {
+      max-width: 90%; /* Increase card width on smaller screens */
+    }
+  }
+  .features-button {
+    background-color: #f9f5ff; /* Light gray background */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    color: #6941c6; /* Purple text color */
+    font-weight: bold; /* Bold font */
+    border: 2px solid #e9d7fe
+  }
+  
+  /* Further responsiveness for very small screens (below 480px) */
+  @media (max-width: 480px) {
+    .learn-main-title {
+      font-size: 1.2em; /* Further decrease title font size */
+    }
+  
+    .learn-subtitle {
+      font-size: 0.8em; /* Further decrease subtitle font size */
+    }
+  
+    .learn-desktop-image {
+      width: 80%; /* Make desktop image smaller on extra small screens */
+    }
+  
+    .learn-mobile-image {
+      width: 130px; /* Further adjust mobile image size */
+    }
+  
+    .learn-features-grid {
+      flex-direction: column; /* Stack all feature cards vertically */
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .features-section {
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    max-width: 1200px; /* Increase max-width to give more space for the cards */
+    margin-left: 5%; /* This ensures the content is slightly pushed towards the right */
+  }
+  
+  .features-title {
+    color: #7d5bff;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .main-title {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  
+  /* Make the main title responsive */
+  @media (max-width: 600px) {
+    .main-title {
+      font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  .subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+  
+  /* Adjust subtitle text size for small screens */
+  @media (max-width: 600px) {
+    .subtitle {
+      font-size: 0.9em; /* Reduce subtitle font size on smaller screens */
+    }
+  }
+  
+  /* Adjust grid to have three cards per row */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+    gap: 30px; /* Space between cards */
+    margin-bottom: 30px; /* Space below the grid */
+  }
+  
+  /* Make sure grid is responsive */
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .features-grid {
+      grid-template-columns: 1fr; /* One card per row on small screens */
+      gap: 20px; /* Smaller gap between cards on mobile */
+    }
+  }
+  
+  .feature-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: left;
+    margin: 0 auto; /* Centers the cards horizontally */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .features-section {
+      margin-left: 0;
+      padding: 20px;
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  
+    .feature-card {
+      text-align: center; /* Center-align each card's text */
+      padding: 20px;
+    }
+  
+    .feature-icon {
+      font-size: 2em;
+      margin: 0 auto 10px auto; /* Center-align the icon */
+    }
+  
+    .feature-title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  
+    .feature-description {
+      font-size: 0.9em;
+      color: #666;
+    }
+  }
+  

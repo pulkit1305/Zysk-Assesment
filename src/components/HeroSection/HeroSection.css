@@ -1,0 +1,137 @@
+/* src/components/HeroSection.css */
+
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero-new-feature {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between buttons */
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+
+.hero-buttons .btn {
+    margin: 0; /* Remove extra margins */
+    padding: 1rem 2rem; /* Increased padding for larger button */
+    font-size: 1.2rem; /* Increased font size */
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+}
+
+.btn-outline {
+    border: 1px solid #050507;
+    color: #070707;
+    background: none;
+    margin-left: 0;
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+}
+
+/* Adjust the button image */
+.btn-outline img {
+    width: 1.2rem; /* Make image a bit bigger */
+    height: 1.2rem; /* Make image a bit bigger */
+    margin-right: 1rem; /* Add more space between image and text */
+    margin-left: 0;
+}
+
+/* Change color of "Demo" text to black */
+.btn-outline span {
+    color: black;
+}
+
+.hero-notification {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d6bcfa;
+    background-color: #f5f3ff;
+    border-radius: 1rem;
+    font-family: Arial, sans-serif;
+    color: #7c3aed;
+    font-size: 0.9rem;
+}
+
+.new-feature {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    background-color: #ede9fe;
+    color: #7c3aed;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.notification-text {
+    font-size: 0.9rem;
+    color: #7c3aed;
+}
+
+/* Responsive profile image */
+.profile-image {
+    width: 100%; /* Increased width from 50% to 60% */
+    max-width: 900px; /* Increased max-width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 1rem; /* Space above image */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 1rem; /* Space between stacked buttons */
+        align-items: center; /* Center buttons horizontally */
+    }
+
+    /* Adjust profile image size for smaller screens */
+    .profile-image {
+        width: 85%; /* Increased width from 75% to 85% */
+        max-width: 350px; /* Increased max-width */
+    }
+
+    .hero-buttons .btn {
+        width: 100%; /* Make buttons full-width */
+        max-width: 300px; /* Optional max width for better appearance */
+        margin: 0 auto; /* Center align buttons */
+        justify-content: center; /* Ensure text is centered */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further increase profile image size on extra small screens */
+    .profile-image {
+        width: 100%; /* Increased width from 95% to 100% */
+        max-width: 320px; /* Increased max-width */
+    }
+}
