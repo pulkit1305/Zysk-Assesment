@@ -1,28 +1,35 @@
 .stats-section {
     text-align: center;
     padding: 40px 0;
-  }
-  
-  .hero-subtitle {
+}
+
+.hero-subtitle {
     font-size: 1rem;
     color: #6b7280;
     margin-bottom: 2rem;
 }
-  
-  .logo-container {
+
+.logo-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-  }
-  
-  .logo {
+}
+
+.logo {
     max-width: 150px;
     height: auto;
     transition: transform 0.3s ease;
-  }
-  
-  .logo:hover {
+}
+
+.logo:hover {
     transform: scale(1.1);
-  }
-  
+}
+
+@media (max-width: 600px) {
+    .logo-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
+    }
+}
