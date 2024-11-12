@@ -1,8 +1,7 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import "./Features.css"; // Importing the features.css file
+import "./Features.css"; 
 
-// Assuming images are stored in the `assets` folder
 import msg from "../../assets/msg.png";
 import light from "../../assets/light.png";
 import chart from "../../assets/chart-breakout-square.png";

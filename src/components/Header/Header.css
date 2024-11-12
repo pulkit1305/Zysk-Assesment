@@ -1,17 +1,20 @@
-/* src/components/Header/Header.css */
-
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
     background-color: #ffffff;
-    
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo-section {
     display: flex;
     align-items: center;
+    margin-right: 24px;
 }
 
 .logo-icon {
@@ -26,14 +29,6 @@
     color: #333;
 }
 
-.menu-icon {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
 .nav-links {
     display: flex;
     gap: 24px;
@@ -45,9 +40,26 @@
     font-size: 16px;
     font-weight: 500;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
-/* Responsive Styles for Mobile */
+.down-arrow {
+    font-size: 12px;
+    margin-left: 4px;
+    color: #333;
+}
+
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
 @media (max-width: 768px) {
     .menu-icon {
         display: block;

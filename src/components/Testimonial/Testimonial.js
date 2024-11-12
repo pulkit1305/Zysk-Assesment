@@ -1,5 +1,5 @@
 import React from "react";
-import "./Testimonial.css"; // Import the CSS file
+import "./Testimonial.css"; 
 import Sisyphus from "../../assets/Sisyphus.png";
 import Avatar from "../../assets/Avatar.png";
 const Testimonial = () => {

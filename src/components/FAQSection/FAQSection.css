@@ -1,4 +1,4 @@
-/* FAQSection.css */
+
 
 .faq-section {
     max-width: 600px;
@@ -50,13 +50,13 @@
 .contact-section {
     background-color: #f9f9f9;
     
-    padding: 50px; /* Increased padding for more internal space */
+    padding: 50px;
     border-radius: 10px;
     text-align: center;
     
-    width: 100%; /* Increase width to 90% of the screen width */
-    max-width: 2000px; /* Set a higher max-width for larger screens */
-    margin: 0 auto; /* Center the section */
+    width: 80%; 
+    max-width: 2000px; 
+    margin: 0 auto; 
 }
 
 .contact-avatars {
